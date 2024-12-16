@@ -158,3 +158,43 @@ body {
     font-size: 14px;
     margin: 1em 0;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+        text-align: center;
+        background-image: none;
+    }
+
+    .container__imagem {
+        width: 50vw;
+    }
+
+    .container__caixa {
+        margin: 2em 2em;
+    }
+
+    .secundario {
+        margin: 0;
+    }
+
+    .secundario__imagem {
+        width: 50vw;
+    }
+
+    .dispositivos__titulo {
+        font-size: 32px;
+    }
+
+    .dispositivos__lista {
+        display: block;
+    }
+
+    .rodape {
+        margin: 1em;
+    }
+
+    .rodape__lista {
+        display: block;
+    }
+}
